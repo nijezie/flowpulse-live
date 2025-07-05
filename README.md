@@ -8,7 +8,7 @@ FlowPulse is a real-time stablecoin flow dashboard built with React, Node.js, an
 
 Click the button below to deploy this application to your own Replit account.
 
-[![Deploy to Replit](https://replit.com/badge/github/YOUR_GITHUB_USERNAME/flowpulse-live)](https://replit.com/github/YOUR_GITHUB_USERNAME/flowpulse-live)
+[![Deploy to Replit](https://replit.com/badge/github/nijezie/flowpulse-live)](https://replit.com/github/nijezie/flowpulse-live)
 
 **Important:** After creating the repository, you **must** edit the link above and replace `YOUR_GITHUB_USERNAME` with your actual GitHub username.
 
