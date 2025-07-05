@@ -1,0 +1,10 @@
+# The command that runs when you press the "Run" button.
+run = "npm start"
+
+# Tells Replit which environment to use.
+[nix]
+channel = "stable-23.11"
+
+# Automatically sets the frontend's API URL to the deployed backend URL.
+[env]
+VITE_API_BASE_URL = "https://${REPL_SLUG}.${REPL_OWNER}.replit.dev"

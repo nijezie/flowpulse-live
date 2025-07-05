@@ -1,0 +1,18 @@
+{
+  "name": "flowpulse-live",
+  "version": "1.0.0",
+  "description": "FlowPulse Real-time Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "start": "concurrently \"npm:server\" \"npm:client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
